@@ -1,0 +1,39 @@
+body,
+html {
+	background-color: #4d5157;
+	font-family: 'cascadia';
+}
+
+button[type='github'] {
+	padding: 5px 8px;
+	background-color: #4caf50;
+	color: #fff;
+	border: none;
+	border-radius: 7px;
+	cursor: pointer;
+}
+
+.footer {
+	background-color: #303030;
+	color: #fff;
+	clear: both;
+	font-family: 'ubuntu';
+
+	text-align: center;
+	position: fixed;
+	bottom: 0px;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	border-width: 30%;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+button[type='github']:hover {
+	transition: background-color 0.9s ease;
+	background-color: #af4c9d;
+}
